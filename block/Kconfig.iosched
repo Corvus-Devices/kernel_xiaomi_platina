@@ -62,6 +62,8 @@ config IOSCHED_ANXIETY
 	  the current processes until they are dispatched. By biasing
 	  and batching synchronous requests, process initialization is
 	  expedited.
+     
+choice
 
 	prompt "Default I/O scheduler"
 	default DEFAULT_CFQ
